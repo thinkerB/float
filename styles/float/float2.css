@@ -1,0 +1,129 @@
+body {
+  color: white;
+  size: 50px;
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.nav {
+  padding: 5px;
+  margin: 5px;
+  font: 20px garamond, serif;
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li {
+  float: left;
+  padding-left: 20px;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+a:hover {
+  color: rgb(17, 17, 251);
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.intro {
+  padding: 5px;
+  margin: 5px;
+  font: italic 16px "Brush Script MT", cursive;
+}
+
+.one {
+  padding-left: 5px;
+}
+
+.two {
+  padding: 5px;
+}
+.three {
+  padding: 5px;
+}
+
+.five::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.img1 {
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  height: 250px;
+  float: right;
+}
+
+img.img2 {
+  padding: 5px 10px 5px 5px;
+  width: 300px;
+  height: 270px;
+  float: left;
+}
+
+img.img8 {
+  padding: 5px 10px 5px 5px;
+  width: 300px;
+  height: 270px;
+  float: left;
+}
+
+.imglion {
+  padding: 5px 10px 5px 5px;
+  width: 300px;
+  height: 270px;
+  float: right;
+}
+
+/*
+.bigcats {
+  box-sizing: border-box;
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
+
+.bct {
+  float: left;
+  padding: 5px;
+  width: 15.66%;
+}
+
+.c1 {
+  width: 300px;
+  height: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.box {
+  float: right;
+  padding: 50px;
+  width: 33.33%;
+}

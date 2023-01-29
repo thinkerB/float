@@ -1,0 +1,37 @@
+.align {
+  width: 20%;
+  height: 50px;
+  border: 5px solid red;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.blouse1 {
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+  border: 2px solid rgba(19, 62, 19, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.tailor1 {
+  margin: auto;
+  border: 0;
+}
+
+.blouse2 {
+  width: 20%;
+  height: 200px;
+  border: 2px solid rgba(20, 30, 12, 0.2);
+}
+
+div img {
+  display: none;
+}
+
+.tailor2:hover img {
+  display: block;
+}

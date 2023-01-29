@@ -1,0 +1,13 @@
+iframe {
+    display: block;
+}
+h1 {
+    color: yellow;
+    background-color: blue;
+}
+.hidden {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}

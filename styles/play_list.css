@@ -1,0 +1,57 @@
+ol {
+    background: orange;
+    margin: 10px; 
+    padding: 20px;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    
+    
+}
+ol li{
+    background: yellow;
+    padding-left: 5px;
+    margin-left: 35px;
+    }
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    }
+ul li {
+    float: left;
+    color: white;
+    padding: 16px;
+    
+}
+a:hover {
+    color: blue;
+    background-color: brown;
+}
+
+table {
+    border-spacing: 10px;
+}
+tr, th, td {
+    color: black;
+   /* background-color: aqua; */
+    border-bottom: 2px solid black;
+    border-color: red;
+    border-collapse:collapse;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 205, 0.2);
+}
+th:nth-child(odd), td:nth-child(odd) {
+    background-color: rgba(0, 0, 200, 0.2);
+}
+th:hover {
+    background-color: brown;
+}
+caption {
+    caption-side: bottom;
+}

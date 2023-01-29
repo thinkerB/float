@@ -1,0 +1,126 @@
+body {
+    font-family: verdana, sans-serif;
+}
+div {
+    color:blue; font-size: 10px;
+}
+.one {
+    color:rgb(0, 255, 136); font-size: 15px;
+}
+#one {
+    color:rgb(255, 204, 0); font-size: 25px;
+}
+em, h4, i, strong {
+    color:#e4901a; font-size: 30px;     
+}
+blockquote {
+    background-color: aqua;
+}
+h3 {
+    border-color:  rgb(208, 34, 34); 
+}
+.husnat {
+    color: rgb(130, 247, 28); font-size: 40px border:4px yellow;
+}
+h4 {
+    font-family: georgia, serif;
+}
+a:link {
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+}
+a:visited {
+    color:green;
+    text-decoration: none;
+    background-color: cyan;
+}
+a:hover {
+    color:hotpink;
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+a:active {
+    color:blue;
+    text-decoration: underline;
+    background-color: hotpink;
+}
+ /* 1. When setting the style for several link states, there are some order rules:
+
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover
+    2. u can add other properties such as fonts, styles, padding, background css
+*/
+a.two:link, a.two:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+}
+      
+a.two:hover, a.two:active {
+    background-color: green;
+    color: white;
+}
+ul.a {
+    list-style-type: square;
+}
+ul.b {
+    list-style-type: disc;
+}
+ol.c {
+    list-style-type: lower-alpha;
+}
+ol.d {
+    list-style-type: lower-roman;
+}
+ol.e {
+    list-style-type: upper-roman;
+}
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

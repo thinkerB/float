@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index_Overflow_Float</title>
+    <link rel="stylesheet" href="Z-index_Overflow_Float.css">
+</head>
+<body>
+    <!--Z-index. Example one-->
+    <h1>This is a heading</h1>
+    <img src="kaya.jpg">
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+    
+    <!--Example two-->
+    <h1>Z-index Example</h1>
+    <p>An element with greater stack order is always above an element with a lower stack order.</p>
+    <div class="container">
+        <div class="black-box">Black box (z-index: 1)</div>
+        <div class="gray-box">Gray box (z-index: 3)</div>
+        <div class="green-box">Green box (z-index: 2)</div>
+    </div>
+ 
+    <!--example three-->
+    <h3>If two positioned elements overlap each other without a z-index specified,
+    the element defined last in the HTML code will be shown on top.</h3>
+    <h1>Overlapping elements</h1>
+    <p>If two positioned elements overlap each other without a z-index specified,
+    the element defined last in the HTML code will be shown on top:</p>
+
+    <div class="container1">
+        <div class="black-box1">Black box</div>
+        <div class="gray-box1">Gray box</div>
+        <div class="green-box1">Green box</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
+    <!--Overflow-->
+    <h2>Overflow: visible</h2>
+
+    <p>By default, the overflow is visible, meaning that it is not 
+    clipped and it renders outside the element's box:</p>
+
+    <div class="visible">You can use the overflow property when you 
+        want to have better control of the layout. The overflow 
+        property specifies what happens 
+        if content overflows an element's box.</div>
+    <br>
+    <br>
+    <h2>Overflow: hidden</h2>
+    <p>With the hidden value, the overflow is clipped, and the rest of 
+        the content is hidden:</p>
+    <p>Try to remove the overflow property to understand how it works.</p>
+
+    <div class="hidden">You can use the overflow property when you want to have better 
+        control of the layout. The overflow property specifies 
+        what happens if content overflows an element's box.</div>
+        <br>
+        <br> 
+        <br>
+
+    <h2>Overflow: scroll</h2>
+    <p>Setting the overflow value to scroll, the overflow is clipped 
+        and a scrollbar is added to scroll inside the box. Note 
+        that this will add a scrollbar both horizontally and 
+        vertically (even if you do not need it):</p>   
+    <div class="scroll">You can use the overflow property when you want to have 
+        better control of the layout. The overflow property specifies
+        what happens if content overflows an element's box.</div>
+
+    <h2>Overflow: auto</h2>
+    <p>The auto value is similar to scroll, only it add scrollbars when necessary:</p>
+    <div class="auto">You can use the overflow property when you want to have better 
+        control of the layout. The overflow property specifies what happens 
+        if content overflows an element's box.</div>
+        <br>
+        <br> 
+        <br>
+
+    <h2>Overflow-x and overflow-y</h2>
+    <p>You can also change the overflow of content horizontally or vertically.</p>
+    <p>overflow-x specifies what to do with the left/right edges of the content.</p>
+    <p>overflow-y specifies what to do with the top/bottom edges of the content.</p>
+
+    <div class="xy">You can use the overflow property when you want 
+        to have better control of the layout. The overflow property specifies 
+        what happens if content overflows an element's box.</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
